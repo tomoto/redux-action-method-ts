@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.createReducer = exports.createActionCreator = void 0;
 function createActionCreator() {
     var data = {};
     var actionCreator = new Proxy(data, {
